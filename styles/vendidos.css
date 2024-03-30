@@ -1,0 +1,28 @@
+.vendidos_text{
+    background-color: var(--branco);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--laranja);
+    padding: 1em 0 0.5em 0;
+    text-align: center;
+}
+
+
+.descricao_img{
+    margin: .5em 0;
+}
+
+@media screen and (min-width: 1024px){
+    .vendidos_text{
+    font-size: 26px;
+    }
+}
+
+
+
+@media screen and (min-width: 1728px){
+    .vendidos_text{
+        font-size: 32px;
+    }
+}
